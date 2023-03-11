@@ -1,5 +1,5 @@
-fn divide(dividend:f32, divisor:f32) -> f32 {
-  dividend / divisor
+fn divide(dividend: f32, divisor: f32) -> f32 {
+    dividend / divisor
 }
 
 fn main() {

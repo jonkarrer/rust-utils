@@ -1,11 +1,11 @@
-fn subract(spread:&[f32]) -> f32 {
-  let mut total = 0.0;
+fn subract(spread: &[f32]) -> f32 {
+    let mut total = 0.0;
 
-  for number in spread {
-    total -= number
-  }
+    for number in spread {
+        total -= number
+    }
 
-  return total;
+    return total;
 }
 
 fn main() {
