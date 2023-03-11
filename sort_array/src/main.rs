@@ -19,6 +19,6 @@ fn sort(unsorted: &Vec<i32>) -> Vec<i32> {
 
 fn main() {
     let spread = vec![50, 20, 4, 5, 8, 29, 100];
-    let sorted_arr = sort_arr(&spread);
+    let sorted_arr = sort(&spread);
     dbg!(sorted_arr);
 }
